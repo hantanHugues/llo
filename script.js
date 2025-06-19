@@ -69,7 +69,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 filePath,
                 `./${filePath}`,
                 `../${filePath}`,
-                `/${filePath}`
+                `/${filePath}`,
+                `docs/${filePath}`
             ];
             
             let response = null;
